@@ -9,6 +9,7 @@ const Welcomepage = () => {
         loading="lazy"
         src="images/thamjith/thamjith-01.JPG"
         className="welcomepage__image"
+        alt="Portrait of Thamjith Thaha"
       />
       <Typography variant="massive" className="welcomepage__text">
         Thamjith Thaha
