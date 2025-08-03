@@ -1,0 +1,41 @@
+.stack {
+  display: flex;
+  
+  // Direction variants
+  &__row { flex-direction: row; }
+  &__column { flex-direction: column; }
+  &__row-reverse { flex-direction: row-reverse; }
+  &__column-reverse { flex-direction: column-reverse; }
+  
+  // Wrap variants
+  &__nowrap { flex-wrap: nowrap; }
+  &__wrap { flex-wrap: wrap; }
+  &__wrap-reverse { flex-wrap: wrap-reverse; }
+  
+  // Justify content variants
+  &__justify-flex-start { justify-content: flex-start; }
+  &__justify-flex-end { justify-content: flex-end; }
+  &__justify-center { justify-content: center; }
+  &__justify-space-between { justify-content: space-between; }
+  &__justify-space-around { justify-content: space-around; }
+  &__justify-space-evenly { justify-content: space-evenly; }
+  
+  // Align items variants
+  &__align-flex-start { align-items: flex-start; }
+  &__align-flex-end { align-items: flex-end; }
+  &__align-center { align-items: center; }
+  &__align-stretch { align-items: stretch; }
+  &__align-baseline { align-items: baseline; }
+  
+  // Align content variants
+  &__align-content-flex-start { align-content: flex-start; }
+  &__align-content-flex-end { align-content: flex-end; }
+  &__align-content-center { align-content: center; }
+  &__align-content-stretch { align-content: stretch; }
+  &__align-content-space-between { align-content: space-between; }
+  &__align-content-space-around { align-content: space-around; }
+  
+  // Gap variants - we'll handle these dynamically in the component
+}
+
+/* Made with Bob */

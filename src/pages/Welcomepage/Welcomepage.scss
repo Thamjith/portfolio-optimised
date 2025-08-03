@@ -1,0 +1,38 @@
+.welcomepage {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    
+    &__image {
+        width: 25rem;
+        // width: clamp(200px, 50vw, 400px);;
+        position: absolute;
+        // bottom: 18rem;
+        bottom: 20vw;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        aspect-ratio: 4/6;
+        object-fit: cover;
+
+        @media (max-width: 768px) {
+            width: 21rem;
+            bottom: 17rem
+        }
+        
+        @media (max-width: 480px) {
+            width: 21rem;
+            bottom: 13rem
+        }
+    }
+    
+    &__text {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+}
