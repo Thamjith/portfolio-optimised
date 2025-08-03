@@ -7,7 +7,7 @@ const Welcomepage = () => {
     <Stack className="welcomepage">
       <img
         loading="lazy"
-        src="profileImages/thamjith-01.JPG"
+        src="images/thamjith/thamjith-01.JPG"
         className="welcomepage__image"
       />
       <Typography variant="massive" className="welcomepage__text">
