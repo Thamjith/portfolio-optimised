@@ -16,6 +16,7 @@
         margin-right: auto;
         aspect-ratio: 4/6;
         object-fit: cover;
+        filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.4));
 
         @media (max-width: 768px) {
             width: 21rem;
@@ -34,5 +35,6 @@
         left: 0;
         right: 0;
         text-align: center;
+        text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.4)
     }
 }
